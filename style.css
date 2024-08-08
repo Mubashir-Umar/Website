@@ -815,3 +815,28 @@ span{
     grid-template-columns: repeat(1,1fr);
   }
 }
+
+/* Responsive Design Adjustments for Phones */
+@media (max-width: 576px) {
+  .wrapper {
+    grid-template-columns: 1fr; /* Stack items vertically */
+  }
+
+  .projects-box img {
+    width: 10rem;
+  }
+
+  .projects-items {
+    min-height: 400px;
+    padding: 15px 30px;
+  }
+
+  .projects-items h2 {
+    font-size: 2rem;
+  }
+
+  .projects-items p {
+    font-size: 1rem;
+    padding: 1.5rem;
+  }
+}
