@@ -724,7 +724,7 @@ span{
 .footer ul{
   margin-top: 0;
   padding: 0;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 1.6;
   margin-bottom: 0;
   text-align: center;
@@ -746,7 +746,7 @@ span{
 }
 
 .footer .copyright{
-  margin-top: 50px;
+  margin-top: 20px;
   text-align: center;
   font-size: 16px;
   color: white;
